@@ -22,6 +22,11 @@
           >
         </li>
       </ng-container>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/error" routerLinkActive="active"
+          >Errors</a
+        >
+      </li>
     </ul>
 
     <div
@@ -30,7 +35,7 @@
       dropdown
     >
       <a class="dropdown-toggle text-light" dropdownToggle
-        >Welocme {{ user.username | titlecase}}</a
+        >Welocme {{ user.username | titlecase }}</a
       >
       <div class="dropdown-menu mt-3" *dropdownMenu>
         <a class="dropdown-item">Edit Profile</a>
